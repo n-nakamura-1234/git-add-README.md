@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+/* レストラン */
+.price {
+	text-align: right;
+}
+
+/* レストラン≫旬のおすすめ */
+
+.title-name.name {
+	text-align: left;
+}
+
+.season-name2 {
+	text-align: right;
+}
+
+.season-name1 .season-name2 {
+	margin: 0;
+	width: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+	.title-name.name {
+		font-size: 14px;
+	}
+}
+
+/* お料理≫御膳・セットメニュー */
+.text-item {
+	color: red;
+}
+
+
+/* 宿泊プラン */
+
+.price-plan {
+	text-align: left;
+}
+
+.plan-price {
+	margin-bottom: 1.5rem;
+	text-align: center;
+	font-style: italic;
+}
+
+.plan-item {
+	border: solid 1px;
+}
+
+.mt0-title {
+	margin-top: 0;
+	margin-bottom: 2.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	border-bottom: 1px solid;
+	text-align: center;
+	font-size: 1.5rem;
+	letter-spacing: .1em;
+}
+
+.f-box2__about {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	flex-direction: column-reverse;
+	-webkit-box-pack: justify;
+	justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+	.f-box2__about {
+		flex-direction: row;
+	}
+}
+
+.f-item__about-text {
+	padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.f-item__about-text {
+		padding: 0;
+	}
+}
+
+
+.f-box2__about .f-item__about {
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+	.f-box2__about .f-item__about {
+		width: 47.5%;
+	}
+}
+
+/* 日帰りプラン */
+/* ≫会席料理付 日帰りプラン */
+.dayuse-plan {
+	margin: 0 0 1.8em;
+}
+
+.plan-day {
+	margin: 0;
+}
+
+.p-point {
+	margin: 0;
+	padding: 0 10px;
+	text-align: center;
+}
+
+/* 日帰りプラン>お食事会場 */
+.plan-place {
+	list-style-type: none;
+	/*リストマーカー無しにする*/
+}
+
+.text-c__place {
+	text-align: center;
+	/* white-space: nowrap; */
+}
+
+
+/*観光情報ページ  */
+.tour-info__time {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tour-info__date {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 1.8em;
+}
+
+.info-item1 .info-item2 {
+	width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+	.mv-slider-pc img.slide-item--not-fitted {
+		margin-right: auto;
+		margin-left: auto;
+		width: auto;
+		height: 100%;
+
+		object-fit: initial;
+	}
+}
+
+
+/* 日帰りプラン>利用時間 */
+.plan-time {
+	flex-shrink: 0;
+	width: 50px;
+	text-align: center;
+}
+
+.plan-item--about {
+	border: none;
+}
+
+.plan-title--about {
+	display: flex;
+	align-items: center;
+}
+
+/* plan：sp版の修正 */
+@media screen and (min-width:767px) {
+	.br-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.meal-place {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.plan-benefits {
+		font-size: 17px;
+	}
+}
+
+.drawer-navigation {
+	display: none !important;
+}
+
+.link-language {
+	top: 0;
+	right: 0;
+
+	/* position: sticky; */
+	float: right;
+	background-color: transparent;
+}
+
+.link-language a,
+.link-language {
+	color: #fff;
+}
+
+.sp-lang-nav {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	z-index: 200;
+}
