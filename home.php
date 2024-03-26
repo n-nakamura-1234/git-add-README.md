@@ -73,7 +73,7 @@ get_header(); ?>
 		<section class="section mt0 js-acc-single">
 			<div class="js-accordion-title is-active">
 				<h2 class="title"><span>Concept</span></h2>
-				<div class="sub-title">コンセプト</div>
+				<div class="sub-title">コンセプト1</div>
 			</div>
 
 			<div class="accordion__content is-open">
